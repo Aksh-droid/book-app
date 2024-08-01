@@ -1,0 +1,112 @@
+<!--
+  author: Akshansh
+  version: 1.2 (dev box)
+  github: Aksh-droid (AkshanshSingh) 
+-->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>AS Books</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="Styles/book-style.css">
+
+
+
+
+</head>
+<body>
+  
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      
+      <i class="bi bi-book-half"></i>
+      
+      Akshanshs Book APP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">My Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/AK.html">about AK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recomendations</a>
+          <a class="nav-link" target ="repo" href="https://github.com/Aksh-droid/turbo-waffle-book-app">
+            &lt;View Code<i class="bi bi-github"></i>&gt;</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" target="nu" href="https://validator.w3.org/nu/?doc=https://aksh-droid.github.io/turbo-waffle-book-app/%23">
+            check page validity ✅</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Reviews</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+<main class="m-2 p-2" >
+  <h2>Here are my book recommendations:</h2>
+  <div class="mb-3">
+
+
+<button id="btnLoadBooks" class="btn btn-outline-primary">load Books</button>
+<button id="btnClearBooks" class="btn btn-outline-primary">clear Books</button>
+  </div>
+
+  <ul class="lilac-bg">
+
+<ul style="background-color:white">
+<ul id="BookList" class = "list-group"></ul>  
+  <li> class="list-group-item">no songs loaded</li>
+  
+</ul>
+</main>
+ 
+<footer>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024
+    <a class="text-body" href="https://gist.github.com/Aksh-droid" target="github">AS</a> |
+
+    <a href="https://gist.github.com/Aksh-droid/eb678ea8fd3bb68e75f1213378decced" target="_blank">The wireframe</a>
+  </div>
+  </footer> 
+ <footer>
+<hr>  
+  
+  A book for everyone,
+ <a href="https://gist.github.com/Aksh-droid/db13238b185fcf29f7ecf4f79bc20b8a#file-gistfile1-txt" target="_blank">see some here</a>
+  
+</footer>  
+<!-- scripts go here -->
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'>
+  </script>
+  <script  src="Scripts/book-script.js"></script>
+
+  <script> src="scripts/bookData.js"</script>
+
+ <!-- internal script -->
+  <script>
+//  alert("This is fun");
+
+  </script>
+  
+</body>
+</html>
